@@ -9,6 +9,11 @@ module.exports = {
     src: "/dist",
   },
   plugins: ["@snowpack/plugin-react-refresh"],
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: "es2018",
+  },
   alias: {
     "@components": "./components",
     "@hooks": "./src/hooks",
