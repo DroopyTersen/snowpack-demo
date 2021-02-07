@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import useS from "@hooks/usePersistedState";
+import "./App.css";
 
 export default function App() {
   // Create the count state.
